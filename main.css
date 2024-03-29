@@ -1,0 +1,92 @@
+table{
+    margin: 2em auto 0em auto;
+    font-size: 25px;
+    width: 75%;
+    /* border: 5px solid black; */
+}
+.content{
+    width: 15em;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+.th{
+    background-color: brown;
+    position: sticky;
+    top: 2em;
+}
+.lighted{
+    background-color: lightgrey;
+}
+.addbutton, .backbutton{
+    padding: 10px;
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+    background-color: aquamarine;
+    border-radius: 40px;
+    width: 40px;
+
+    text-align: center;
+    font-size: 40px;
+}
+.combutton{
+    padding: 10px;
+    position: fixed;
+    bottom: 3em;
+    right: 2em;
+    background-color: aquamarine;
+    border-radius: 40px;
+    width: 40px;
+
+    text-align: center;
+    font-size: 40px;
+    
+}
+#updateinput{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    border: none;
+    background-color: inherit;
+    border-bottom: black 1px solid;
+    backdrop-filter: invert(1);
+    font-size: inherit;
+    font-family: inherit;
+    color: aliceblue;
+    width: 100%;
+}
+.addcol{
+    margin: 10px auto;
+}
+.container{
+    color: black;
+    position: fixed;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    top: 0;
+    right: 0em;
+    left: 0em;
+    font-size: 20px;
+    height: 50px;
+    
+}
+.container .acc{
+    background-color: rgb(248, 255, 172);
+    position: absolute;
+    right: 2em;
+    top: 0.5em;
+}
+.container h1{/*導覽列標題*/
+    margin: 0 auto;
+    text-align: center;
+}
+a{
+    color: darkgreen;
+    text-decoration: none;
+}
+a:hover {
+    background-color: antiquewhite;
+}
+a:visited{
+    text-decoration-line: none;
+}
